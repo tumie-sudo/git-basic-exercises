@@ -1,0 +1,148 @@
+    1  Is
+    2  Is /data
+    3  Is /
+    4  pwd
+    5  mkdir Learning_unix
+    6  Is
+    7  ls
+    8  ls /data
+    9  ls /
+   10  pwd
+   11  mkdir Learning_unix
+   12  ls command_line_course Learning_unix linux_bootcamp
+   13  cd Learning_unix
+   14  mkdir Outer_directory
+   15  cd Outer_directory
+   16  mkdir Inner_directory
+   17  cd Inner_directory/
+   18  mkdir -p Outer_directory/Inner_directory
+   19  cd /
+   20  cd home
+   21  cd ubuntu
+   22  cd mamikie
+   23  cd /home/mamikie/
+   24  cd Learning_unix/
+   25  cd ..
+   26  cd ../..
+   27  cd Learning_unix/
+   28  cd ../..
+   29  cd ../../../tmp
+   30  pwd
+   31  cd /pwd
+   32  cd / pwd
+   33  cd pwd
+   34  cd ~pwd
+   35  cd~pwd
+   36  cd~ pwd
+   37  cd home
+   38  pwd
+   39  cd / pwd
+   40  cd ~
+   41  pwd
+   42  cd /
+   43  pwd
+   44  cd
+   45  pwd
+   46  cd /
+   47  cd ~/Learning_unix
+   48  cd ~/Learning_unix/Outer_directory/
+   49  ls ../../
+   50  pwd
+   51  cd /
+   52  pwd
+   53  cd ~
+   54  cd ~/Learning_unix
+   55  ls -l /home
+   56  ls -R /home
+   57  ls -l -t -r /home
+   58  ls -lh /home
+   59  man ls
+   60  man cd
+   61  man man #
+   62  cd~
+   63  cd 
+   64  cd ~
+   65  cd ~/Learning_unix/Outer_directory/
+   66  rmdir Inner_directory/
+   67  cd ..
+   68  rmdir Outer_directory/
+   69  ls
+   70  cd~
+   71  cd ~
+   72  pwd
+   73  cd ~/Learning_unix/
+   74  cd ~
+   75  pwd
+   76  cd Learning_unix/
+   77  cd ~
+   78  mkdir Tumie_dox
+   79  ls
+   80  mkdir git-basic-exercises
+   81  ls
+   82  cd ~/Tumie_dox/
+   83  rmdir Tumie_dox/
+   84  cd~
+   85  pwd
+   86  cd~
+   87  mkdir git-basic-exercises
+   88  git checkout master
+   89  git status
+   90  git log
+   91  git branch
+   92  ls 
+   93  cd Tumie_dox
+   94  ls
+   95  ls -a
+   96  git log
+   97  cd ../
+   98  mkdir school-prac
+   99  ls
+  100  cd school-prac
+  101  ls -a
+  102  git log
+  103  mkdir git-basic-exercises
+  104  cd git-basic-exercises
+  105  ls -a
+  106  git init
+  107  ls -a
+  108  git status
+  109  touch README.md
+  110  ls -a
+  111  git status
+  112  git log
+  113  git add README.md
+  114  git status
+  115  git commit -m "initial commit"
+  116  git log
+  117  nano README.md
+  118  cat README.md
+  119  git status
+  120  git add README.md
+  121  git status
+  122  git commit -m "second commit"
+  123  nano README.md
+  124  git status
+  125  git add README.md
+  126  git status
+  127  git commit -m "third commit"
+  128  git log
+  129  git checkout ffedb9
+  130  cat README.md
+  131  git checkout master
+  132  cat README.md
+  133  git branch
+  134  git branch milkshake-flavours
+  135  git branch
+  136  git checkout milkshake-flavours
+  137  nano milkshakes.md
+  138  git status
+  139  git add milkshakes.md
+  140  git status
+  141  git commit -m "added initial flavours"
+  142  git log
+  143  git checkout master
+  144  git log
+  145  git branch history
+  146  git checkout history
+  147  git log
+  148  history > history.txt
